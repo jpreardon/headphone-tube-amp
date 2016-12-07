@@ -1,5 +1,16 @@
 # Project Log
 
+### 2016-12-06
+
+Tubes came in yesterday, and the rest of the parts today. Power supplies shipped today as well.
+
+Since the tube isn't going to fit so well on the breadboard, I was looking for a way to wire it up temporarily so it isn't flopping around. I found this a  cigar box in my small junk collection. I think I "borrowed" it from Carl's shop a couple years ago. Anyway, I drilled some holes in the sliding cover, and mounted the tube socket along with some wires that I will hook up later. The wires were a mess, so I labeled all of them.
+
+Even though it is meant to be temporary, I guess this little cigar box could function as a more permanent enclosure. It will need some ventilation holes in it though.
+
+I put [some pictures](http://jpreardon.com/2016/12/06/temporary-amp-enclosure/) on my blog.
+
+
 ### 2016-12-01
 
 Shopping day!!!
