@@ -1,5 +1,35 @@
 # Project Log
 
+### 2016-12-10
+
+#### Part 1
+
+After organizing the components and studying the schematic a bit more, I realized I was missing a couple 1/2 watt resistors (they were 1/4 watt on the BOM, but 1/2 on the schematic). Luckily, Radio Shack had some. While I was there, I also picked up a couple 1/8" jacks for input.
+
+I started mounting the output jack and the potentiometer on the enclosure. Unfortunately, they don't project enough through the case. The jack just catches the nut, but only by a thread or two. The, pot, no way, even after I broke off the tab used to keep it from rotating :) More about the pot later.
+
+Here's what it looks like so far.
+
+![enclosure front](https://scontent-iad3-1.cdninstagram.com/t51.2885-15/s1080x1080/e15/fr/15251777_967469766688077_6027269915923185664_n.jpg)
+
+I think the only other thing going on the front is a small power switch, and maybe a power LED. The switch will probably go right over the sticker.
+
+I soldered some wires on the jacks and the pot. I tested it out with some headphones to make sure it worked as expected. It did, but it seems like this pot might be kind of shitty. It cuts out a little near the max. It needs to get replaced with one with a longer shaft anyway, so not a big deal.
+
+### Part 2
+
+I connected everything up, was happy to see the heaters glow when I plugged it in. I set the bias and checked the DC offset. I noticed that the offset was a little high on the right channel (~14 mv as opposed to the < 10mv I was expecting, the left channel was around 7.5 mv).
+
+I tested with some cheap earbuds and was happy to actually hear music! I plugged in some better headphones and listened to some music:
+
+- Sharon Jones & The Dap Kings: What if We All Stopped Paying Taxes
+- Sex Pistols: Sub-Mission
+- Rush: Tom Sawyer
+
+Sounds great! It is bright, as others have reported. There is a low level hiss, which is only noticeable when there is no sound. I'll have to see what I can do to get rid of that. It also picks up some RFI, most noticeable if an iPhone is a foot or so away from the circuitry.
+
+Now I guess I need to make a board for this thing and put it in the case.
+
 ### 2016-12-06
 
 Tubes came in yesterday, and the rest of the parts today. Power supplies shipped today as well.
