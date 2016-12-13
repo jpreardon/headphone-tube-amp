@@ -1,5 +1,24 @@
 # Project Log
 
+### 2016-12-11
+
+Ok, it's time to think about finishing this thing up. In order for this enclosure to work, we need a few more things:
+
+Item | Notes | Supplier | Part Number
+--- | --- | --- |---
+DC barrel connector | The power supplies have some funky, Canon connector, need a standard one. | [Digikey](http://www.digikey.com/product-detail/en/cui-inc/PP3-002B/CP3-1001-ND/992137) | CP3-1001-ND
+DC panel mount jack** | |  [Digikey](http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=213978466&uq=636170668449877865) | CP-065B-ND
+Rubber feet | Ones that screw in would be better than just adhesive. | [Digikey](http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=213978234&uq=636170660051684522) | 36-720-ND
+10K Stereo Potentiometer* | | |
+1/4" Stereo Jack** | | |
+1/8" Stereo Jack** | | |
+Knob | | [Digikey](http://www.digikey.com/product-detail/en/kilo-international/OEDA-50-4-7/226-4140-ND/710841) | 226-4140-ND
+Bypass switch** | | [Digikey](http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=214086347&uq=636171710594643911) | EG2425-ND
+LED panel mount** | Do we really need this? The tube glows :) | |
+Tube Socket | | [Tube Depot](https://www.tubedepot.com/products/9-pin-miniature-chassis-mount-socket) |
+
+** All panel mount components need long shafts for this enclosure. Although, I might try to shave a bit off the inside for the pot and the 1/4" jack in order to use what I have.
+
 ### 2016-12-10
 
 #### Part 1
@@ -29,6 +48,8 @@ I tested with some cheap earbuds and was happy to actually hear music! I plugged
 Sounds great! It is bright, as others have reported. There is a low level hiss, which is only noticeable when there is no sound. I'll have to see what I can do to get rid of that. It also picks up some RFI, most noticeable if an iPhone is a foot or so away from the circuitry.
 
 Now I guess I need to make a board for this thing and put it in the case.
+
+There's a picture of the [working, and messy, circuit on my blog](http://jpreardon.com/2016/12/11/cold-evening-warmed-gentle-glow-12au7-tube/).
 
 ### 2016-12-06
 
