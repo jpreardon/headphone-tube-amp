@@ -1,5 +1,23 @@
 # Project Log
 
+### 2016-12-18
+
+All the additional parts came yesterday. I'm going to try soldering up a perfboard for this, even though I've had less than stellar results with perfboard in the past. Here's my reasoning:
+
+- I have some 2x3 perfboard on hand
+- It should fit on the 2x3 perf board since the board layout is only slightly larger, but I'm not putting the tube on the board.
+- I have none of the PCB supplies on hand to etch/drill a PCB
+
+I got all the parts to fit in the enclosure, including the perf board, and drilled a bunch of vent holes. I had to dremel the back of the panel around the potentiometer hole so the nut would grab on the front. I also had to make a sort of countersink hole for the input jack.
+
+![robusto](https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/15259107_1764343390557052_9072783078933397504_n.jpg?ig_cache_key=MTQwODM4OTI4NjQ1Mzk4MDAzMA%3D%3D.2)
+
+Updated templates for all the holes are in the repository here.
+
+I was going to try cutting a hole in the top to mount the tube in a more secure fashion, but I'm not sure that's going to work given the holes I've already drilled. I might just mount a socket with hot glue or something.
+
+I had a hard time getting the barrel plug soldered on to the power supply. I broke one of them. Then, I realized the plug's not long enough anyway. I ordered some more, I hope they aren't too long.
+
 ### 2016-12-11
 
 Ok, it's time to think about finishing this thing up. In order for this enclosure to work, we need a few more things:
