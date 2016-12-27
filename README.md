@@ -1,6 +1,6 @@
 # headphone-tube-amp
 
-This is where I'll be tracking the build of the headphone tube amp. More documentation on [jpreardon.com](http://jpreardon.com/tag/headphone-amp/)
+This is where I'll be tracking the build of the headphone tube amp. More documentation on [jpreardon.com](http://jpreardon.com/projects/robusto-tube-amplifier/)
 
 
 ## Research
