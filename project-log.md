@@ -1,5 +1,17 @@
 # Project Log
 
+### 2015-12-26
+
+I spent most of the day working on finishing this project. I started by getting all of the enclosure components wired and soldered. Soldering is a joy, by the way, with my new solder station--a christmas gift from my wife.
+
+I'm pretty slow with the soldering and wiring. I also made some stupid mistakes, even after I drew my crude schematic. I did test the power as well as the bypass circuit before proceeding.
+
+![enclosure wired](https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/15538322_1295940933786156_5988895366680936448_n.jpg?ig_cache_key=MTQxNDAzODI4MDYwOTgxMDYwMQ%3D%3D.2)
+
+The perfboard took forever. I only had to desolder two components where I made mistakes (so far). This is reaffirming my hatred of perfboard. I hope this thing fires up on the first try, because trouble shooting is going to be difficult, if not impossible.
+
+Next step is connecting the tube socket. That should be relatively quick. Fingers crossed that it works once everyting is wired.
+
 ### 2016-12-18
 
 All the additional parts came yesterday. I'm going to try soldering up a perfboard for this, even though I've had less than stellar results with perfboard in the past. Here's my reasoning:
