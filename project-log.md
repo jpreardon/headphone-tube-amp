@@ -1,5 +1,17 @@
 # Project Log
 
+### 2015-12-17
+
+I wired up the tube, plugged in the power and...
+
+Shiiiit. The LED was flashing, it's not supposed to flash.
+
+I thought that it might be the crap power supply I was using, so I tried a better one. That one shut down as soon as I flipped the power switch.
+
+I think there is a short on the board somewhere. Which sucks, because I'm going to have to do major surgery to get at it. I also think that the solid state components might be blown out at this point. The LM317 and MOSFETs were all very hot, I expect that from the LM317, but not the MOSFETs.
+
+I'm going to take a break, clean up a bit and think about what to do next. I could try soldering up another perf board since trouble shooting what I've got seems almost impossible. Or, maybe I should just bite the bullet and etch a board.
+
 ### 2015-12-26
 
 I spent most of the day working on finishing this project. I started by getting all of the enclosure components wired and soldered. Soldering is a joy, by the way, with my new solder station--a christmas gift from my wife.
