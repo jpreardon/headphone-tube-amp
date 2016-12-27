@@ -8,9 +8,35 @@ Shiiiit. The LED was flashing, it's not supposed to flash.
 
 I thought that it might be the crap power supply I was using, so I tried a better one. That one shut down as soon as I flipped the power switch.
 
-I think there is a short on the board somewhere. Which sucks, because I'm going to have to do major surgery to get at it. I also think that the solid state components might be blown out at this point. The LM317 and MOSFETs were all very hot, I expect that from the LM317, but not the MOSFETs.
+The second power supply has over-current protection and I suspect a short on the board somewhere. Which sucks, because I'm going to have to do major surgery to get at it. I also think that the solid state components might be blown out at this point. The LM317s and MOSFETs were all very hot, I expect that from the LM317, but not the MOSFETs.
 
 I'm going to take a break, clean up a bit and think about what to do next. I could try soldering up another perf board since trouble shooting what I've got seems almost impossible. Or, maybe I should just bite the bullet and etch a board.
+
+#### Later...
+
+Never underestimate the power of poking around with a meter. I found the problem, or at least **A** problem: I wired the LM317 regulators improperly. I noticed that the output was shorted to ground, and the adjustment pin is going through a resistor. I'm going to try flipping these around and seeing if that works. I don't have high expectations since I think that short might have done some bad things to the electronics on the board.
+
+#### Even Later...
+
+That seemed to have been **THE** problem. Once the LM317 was wired up the way it was supposed to be, it worked fine.
+
+I reassembled everything, set the bias on each channel to half of the input voltage (12.32v/6.16v). I am getting a higher than expected DC offset on the headphone output. It's around 24mv. From what I've read, this may have do to with the capacitors, but under 50mv should be ok, so I'm not going to worry about it too much at this point.
+
+#### The Verdict
+
+With the bypass switch, I can compare the amp's sound to the source pretty quickly. So, how does it sound?
+
+- With crap (Apple) earbuds, it is hard to tell a difference.
+- With slightly better headphones (Bose), it sounds a bit "fuller" with the amp.
+
+Overall, the difference is pretty minor (if it exists at all). I need to try two things: Line level input and higher impedance headphones. Even my Bose headphones are fairly low impedance.
+
+#### Lessons Learned
+
+- The polarity protection diode payed off. While messing with the power supply, I reversed the polarity at least once.
+- I'm not so good on perf boards. Next time, I think I'll spend a little more time up front laying things out. Also, I think I'll try not to used the component leads as traces, this makes it really hard to get them off the board if need be.
+- Don't underestimate the time the enclosure fitting and final build will take. Granted, I'm pretty slow, and I don't have much of a workshop, but this is a big part of the project. Where putting together a simple circuit on a breadboard is really fast. Fitting everything and soldering the final circuit can take an order of magnitude longer (for me anyway).
+
 
 ### 2015-12-26
 
@@ -22,7 +48,7 @@ I'm pretty slow with the soldering and wiring. I also made some stupid mistakes,
 
 The perfboard took forever. I only had to desolder two components where I made mistakes (so far). This is reaffirming my hatred of perfboard. I hope this thing fires up on the first try, because trouble shooting is going to be difficult, if not impossible.
 
-Next step is connecting the tube socket. That should be relatively quick. Fingers crossed that it works once everyting is wired.
+Next step is connecting the tube socket. That should be relatively quick. Fingers crossed that it works once everything is wired.
 
 ### 2016-12-18
 
